@@ -1,5 +1,5 @@
 [CARD]
-TITLE: Welcome to Antigravity v1.0
+TITLE: Welcome to Frontend v1.0
 DESCRIPTION: We are excited to launch the first version of our new game launcher! Enjoy a seamless experience with RetroAchievements integration and automatic metadata fetching.
 
 [CARD]
