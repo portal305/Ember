@@ -31,4 +31,3 @@ Ember leverages **Daijisho platform files** to ensure broad compatibility and ac
 *   **Orientation:** Optimized for landscape usage, making it perfect for handheld gaming devices and dedicated emulator setups.
 
 ---
-*© 2024 Ember Team. All rights reserved.*
