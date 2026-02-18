@@ -6,6 +6,20 @@
     <link>https://github.com/portal305/frontend</link>
     <language>en</language>
     <item>
+      <title>Update Ember Frontend v0.1.3</title>
+      <description>New version with sounds and settings improvements!</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Release</category>
+      <guid>frontend-news-7</guid>
+    </item>
+    <item>
+      <title>Update Ember Frontend v0.1.2</title>
+      <description>New version with custom layouts maker support!</description>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Release</category>
+      <guid>frontend-news-6</guid>
+    </item>
+    <item>
       <title>Update Ember Frontend v0.1.1</title>
       <description>New version up on github! Initial support for gamepads</description>
       <pubDate>Sat, 14 Feb 2026 16:20:00 +0000</pubDate>
