@@ -247,6 +247,41 @@
       "revisionNumber": 3
     },
     {
+      "filename": "Game&Watch.json",
+      "platformName": "Game & Watch",
+      "platformShortname": "gw",
+      "platformUniqueId": "gw",
+      "revisionNumber": 7
+    },
+    {
+      "filename": "GameBoy.json",
+      "platformName": "Game Boy",
+      "platformShortname": "gb",
+      "platformUniqueId": "gb",
+      "revisionNumber": 19
+    },
+    {
+      "filename": "GameBoyAdvance.json",
+      "platformName": "Game Boy Advance",
+      "platformShortname": "gba",
+      "platformUniqueId": "gba",
+      "revisionNumber": 17
+    },
+    {
+      "filename": "GameBoyColor.json",
+      "platformName": "Game Boy Color",
+      "platformShortname": "gbc",
+      "platformUniqueId": "gbc",
+      "revisionNumber": 19
+    },
+    {
+      "filename": "GameCube.json",
+      "platformName": "GameCube",
+      "platformShortname": "gc",
+      "platformUniqueId": "gc",
+      "revisionNumber": 16
+    },
+    {
       "filename": "IdTech4A.json",
       "platformName": "idTech4A++",
       "platformShortname": "idtech",
@@ -307,7 +342,7 @@
       "platformName": "Microsoft - Xbox",
       "platformShortname": "xbox",
       "platformUniqueId": "xbox",
-      "revisionNumber": 5
+      "revisionNumber": 4
     },
     {
       "filename": "MicrosoftXbox360.json",
@@ -384,7 +419,7 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 21
+      "revisionNumber": 19
     },
     {
       "filename": "Nintendo64.json",
@@ -398,14 +433,14 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 15
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoDSi.json",
       "platformName": "Nintendo DSi",
       "platformShortname": "ndsi",
       "platformUniqueId": "ndsi",
-      "revisionNumber": 14
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
@@ -413,41 +448,6 @@
       "platformShortname": "nes",
       "platformUniqueId": "nes",
       "revisionNumber": 12
-    },
-    {
-      "filename": "NintendoGame&Watch.json",
-      "platformName": "Nintendo - Game & Watch",
-      "platformShortname": "gw",
-      "platformUniqueId": "gw",
-      "revisionNumber": 7
-    },
-    {
-      "filename": "NintendoGameBoy.json",
-      "platformName": "Nintendo - Game Boy",
-      "platformShortname": "gb",
-      "platformUniqueId": "gb",
-      "revisionNumber": 21
-    },
-    {
-      "filename": "NintendoGameBoyAdvance.json",
-      "platformName": "Nintendo - Game Boy Advance",
-      "platformShortname": "gba",
-      "platformUniqueId": "gba",
-      "revisionNumber": 19
-    },
-    {
-      "filename": "NintendoGameBoyColor.json",
-      "platformName": "Nintendo - Game Boy Color",
-      "platformShortname": "gbc",
-      "platformUniqueId": "gbc",
-      "revisionNumber": 20
-    },
-    {
-      "filename": "NintendoGameCube.json",
-      "platformName": "Nintendo - GameCube",
-      "platformShortname": "gc",
-      "platformUniqueId": "gc",
-      "revisionNumber": 18
     },
     {
       "filename": "NintendoSatellaview.json",
@@ -468,7 +468,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 16
+      "revisionNumber": 15
     },
     {
       "filename": "NintendoWiiU.json",
@@ -482,7 +482,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 9
+      "revisionNumber": 8
     },
     {
       "filename": "PICO8.json",
@@ -790,7 +790,7 @@
       "platformName": "Windows",
       "platformShortname": "windows",
       "platformUniqueId": "windows",
-      "revisionNumber": 11
+      "revisionNumber": 10
     },
     {
       "filename": "WonderSwan.json",
