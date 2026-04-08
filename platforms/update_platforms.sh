@@ -34,8 +34,13 @@ echo "Found $TOTAL platform definitions. Checking for differences..."
 UPDATED=0
 ADDED=0
 SKIPPED=0
+REMOVED=0
+
+# Keep track of remote filenames for deletion check
+declare -A REMOTE_FILES
 
 for FILE in $JSON_FILES; do
+    REMOTE_FILES["$FILE"]=1
     RAW_URL="$RAW_BASE_URL/$FILE"
     TEMP_FILE=".temp_$FILE"
     
@@ -62,9 +67,22 @@ for FILE in $JSON_FILES; do
     fi
 done
 
+# Remove local files that are no longer in the remote repository
+echo ""
+echo "Checking for obsolete local definitions..."
+for LOCAL_FILE in *.json; do
+    # Skip if it's not a regular file or if it's already in the remote list
+    if [[ -f "$LOCAL_FILE" && -z "${REMOTE_FILES["$LOCAL_FILE"]}" ]]; then
+        echo "[REMOVED] $LOCAL_FILE"
+        rm "$LOCAL_FILE"
+        ((REMOVED++))
+    fi
+done
+
 echo ""
 echo "Update complete!"
 echo "Checked: $TOTAL files"
 echo "Added:   $ADDED"
 echo "Updated: $UPDATED"
+echo "Removed: $REMOVED"
 echo "Skipped: $SKIPPED"
